@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<html>
+<body>
+<p id="car_name">BYD</p>
+<button onclick="changeCarName()">我要BMW</button>
+<br>
+<br>
+<script type="text/javascript">
+
+	document.write("变量的简单使用<br>");
+	var x = 2;
+	var y = 3;
+	var z = 2+3;
+
+	document.write(x+"<br>");
+	document.write(y+"<br>");
+	document.write(z+"<br>");
+
+	document.write("变量也可以为字符串<br>");
+
+	var name = "boyce";
+	var answer = "yes,I am";
+
+	document.write(name+"<br>"+answer);
+
+	
+</script>
+
+<script type="text/javascript">
+	
+	function changeCarName(){
+
+		var carName = "BMW";
+	   document.getElementById("car_name").innerHTML=carName;
+
+	}
+
+</script>
+
+<script type="text/javascript">
+	//您可以在一条语句中声明很多变量。该语句以 var 开头，并使用逗号分隔变量即可：
+	var a = "good student",b ="good iOSer", c="good leader";
+	var d ="ceo",
+	    e ="cto",
+	    f ="coo";
+	 var m = 19,n = 12;
+	 document.write("<br>"+"如果数字和字符串相加会出现什么情况呢？");
+	 document.write("<br>");
+	 document.write(m+n);
+	 document.write("<br>"+m+n);
+	 document.write("<br>");
+	 document.write("我是"+m+n);
+</script>
+
+</body>
+</html>
